@@ -4,5 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-csv = "1.1"
-indicatif = "0.17"
+winapi = { version = "0.3", features = ["fileapi", "handleapi", "memoryapi", "winnt", "minwinbase"] }
+indicatif = "0.16"
+walkdir = "2.3.2"
